@@ -109,7 +109,10 @@ module.exports = function(grunt) {
         wiredep: { // grunt wiredep task (hook dependencies in index)
             
             target: {
-                src: 'app/index.html' // .html support
+                src: [
+                    'app/index.html', // .html
+                    'app/sass/main.scss' // *** TEST ***
+                ]
             }
             
         },
