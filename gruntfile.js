@@ -67,7 +67,12 @@ module.exports = function(grunt) {
 
 		concat: {
 			production: {
-				src: ['app/js/libs/*.js', 'app/js/custom/*.js'],
+				src: [
+                    'app/js/libs/*.js', 
+                    'app/js/custom/*.js', 
+                    'bower_components/jquery/dist/jquery.js', // Add jQuery
+                    'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js' // Add Bootstrap
+                    ],
 				dest: 'app/js/build/production.js'
 			}
 		},
