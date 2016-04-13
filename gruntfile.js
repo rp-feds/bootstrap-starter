@@ -106,7 +106,7 @@ module.exports = function(grunt) {
 			}
 		},
         
-        wiredep: { // grunt wiredep task (to hooks in index)
+        wiredep: { // grunt wiredep task (hook dependencies in index)
             
             target: {
                 src: 'app/index.html' // .html support
