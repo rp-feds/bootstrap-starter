@@ -15,7 +15,9 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "^3.3.6"
+    "bourbon": "*",
+    "neat": "*",
+    "bitters": "*"
   },
   "devDependencies": {
     "normalize-scss": "~3.0.3"
